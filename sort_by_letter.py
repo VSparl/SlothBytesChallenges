@@ -19,4 +19,8 @@ def sort_by_letter(arr):
     return sorted(arr, key=sort_function)
 
 
-print(sort_by_letter([]))
+print("\n".join(sort_by_letter(["932c", "832u32", "2344b"]),
+                sort_by_letter(["99a", "78b", "c2345", "11d"]),
+                sort_by_letter(["572z", "5y5", "304q2"]),
+                sort_by_letter([])
+                ))
